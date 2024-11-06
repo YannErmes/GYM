@@ -80,9 +80,10 @@ class _YouTubePlayerPageState extends State<YouTubePlayerPage> {
             onPressed: _togglePlayPause,
           ),
           Text(
-            _isPlaying ? "Playing" : "Paused",
+            _isPlaying ? "Playing music" : "Paused",
             style: TextStyle(fontSize: 18, color: Colors.amber),
           ),
+
         ],
       ),
     );
